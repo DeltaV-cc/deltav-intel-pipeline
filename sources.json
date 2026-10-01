@@ -1,0 +1,682 @@
+{
+  "last_updated": "2026-08-27",
+  "description": "Delta V Layer-0 market-data fetch source registry — public (MIT), no LLM, no keys committed.",
+  "sources": [
+    {
+      "name": "arXiv cs.AI",
+      "url": "http://export.arxiv.org/rss/cs.AI",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "arXiv cs.LG",
+      "url": "http://export.arxiv.org/rss/cs.LG",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "arXiv cs.CL",
+      "url": "http://export.arxiv.org/rss/cs.CL",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "arXiv stat.ML",
+      "url": "http://export.arxiv.org/rss/stat.ML",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "The Batch",
+      "url": "https://www.deeplearning.ai/the-batch/feed/",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "Gwern Branwen",
+      "url": "https://gwern.net/atom.xml",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/feed.xml",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "LessWrong",
+      "url": "https://www.lesswrong.com/feed.xml",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "HF Intelligence (Models + Papers + Trending)",
+      "url": "file:///C:/Users/Admin/DeltaV-persistent-workspace/intel/sources/hf-models.xml",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "Ollama Blog",
+      "url": "https://ollama.com/blog/rss",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/feed",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "DeepMind Blog",
+      "url": "https://deepmind.google/discover/blog/feed/",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://blog.research.google/feeds/posts/default",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "Stanford HAI",
+      "url": "https://hai.stanford.edu/news/feed",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/rss/",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "Hacker News Frontpage",
+      "url": "https://hnrss.org/frontpage",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "Hacker News Best",
+      "url": "https://hnrss.org/best",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "Y Combinator News",
+      "url": "https://news.ycombinator.com/rss",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "Vitalik Buterin",
+      "url": "https://vitalik.ca/feed.xml",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "Ethereum Foundation Blog",
+      "url": "https://blog.ethereum.org/feed.xml",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "Reuters Technology",
+      "url": "https://www.reutersagency.com/feed/?best-topics=tech",
+      "type": "rss",
+      "dashboard": "macro"
+    },
+    {
+      "name": "Federal Reserve FEDS Notes",
+      "url": "https://www.federalreserve.gov/feeds/fedsnotes.xml",
+      "type": "rss",
+      "dashboard": "macro"
+    },
+    {
+      "name": "IMF Blog",
+      "url": "https://www.imf.org/en/News/RSS",
+      "type": "rss",
+      "dashboard": "macro"
+    },
+    {
+      "name": "World Bank Blogs",
+      "url": "https://blogs.worldbank.org/rss.xml",
+      "type": "rss",
+      "dashboard": "macro"
+    },
+    {
+      "name": "Brookings",
+      "url": "https://www.brookings.edu/feed/",
+      "type": "rss",
+      "dashboard": "macro"
+    },
+    {
+      "name": "CFR",
+      "url": "https://www.cfr.org/rss",
+      "type": "rss",
+      "dashboard": "macro"
+    },
+    {
+      "name": "OFAC Sanctions",
+      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
+      "type": "rss",
+      "dashboard": "macro"
+    },
+    {
+      "name": "BIS Export Controls",
+      "url": "https://www.bis.doc.gov/index.php/documents/about-bis/newsroom/press-releases/rss",
+      "type": "rss",
+      "dashboard": "macro"
+    },
+    {
+      "name": "UN Sanctions",
+      "url": "https://www.un.org/securitycouncil/content/press-releases/rss",
+      "type": "rss",
+      "dashboard": "macro"
+    },
+    {
+      "name": "Nature",
+      "url": "https://www.nature.com/nature.rss",
+      "type": "rss",
+      "dashboard": "macro"
+    },
+    {
+      "name": "Science Daily",
+      "url": "https://www.sciencedaily.com/rss/all.xml",
+      "type": "rss",
+      "dashboard": "macro"
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "type": "rss",
+      "dashboard": "macro"
+    },
+    {
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/rss",
+      "type": "rss",
+      "dashboard": "macro"
+    },
+    {
+      "name": "TG: @defimon_alerts",
+      "url": "tg://defimon_alerts",
+      "type": "tg",
+      "dashboard": "infosec"
+    },
+    {
+      "name": "TG: @leviathan_news",
+      "url": "tg://leviathan_news",
+      "type": "tg",
+      "dashboard": "infosec"
+    },
+    {
+      "name": "TG: @investigations",
+      "url": "tg://investigations",
+      "type": "tg",
+      "dashboard": "infosec"
+    },
+    {
+      "name": "X: @pcaversaccio",
+      "url": "https://nitter.net/pcaversaccio/rss",
+      "type": "rss",
+      "dashboard": "infosec"
+    },
+    {
+      "name": "X: @HypernativeLabs",
+      "url": "https://nitter.net/HypernativeLabs/rss",
+      "type": "rss",
+      "dashboard": "infosec"
+    },
+    {
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "type": "rss",
+      "dashboard": "infosec"
+    },
+    {
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackerNews",
+      "type": "rss",
+      "dashboard": "infosec"
+    },
+    {
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "type": "rss",
+      "dashboard": "infosec"
+    },
+    {
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "type": "rss",
+      "dashboard": "infosec"
+    },
+    {
+      "name": "Schneier on Security",
+      "url": "https://www.schneier.com/feed/atom/",
+      "type": "rss",
+      "dashboard": "infosec"
+    },
+    {
+      "name": "CISA Advisories",
+      "url": "https://www.cisa.gov/uscert/ncas/all.xml",
+      "type": "rss",
+      "dashboard": "infosec"
+    },
+    {
+      "name": "ICS-CERT Advisories",
+      "url": "https://ics-cert.us-cert.gov/feeds/advisories.xml",
+      "type": "rss",
+      "dashboard": "infosec"
+    },
+    {
+      "name": "CISA KEV Catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "type": "api",
+      "dashboard": "infosec"
+    },
+    {
+      "name": "Have I Been Pwned",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "type": "api",
+      "dashboard": "infosec"
+    },
+    {
+      "name": "X: @l2beat",
+      "url": "https://nitter.net/l2beat/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "X: @0xngmi",
+      "url": "https://nitter.net/0xngmi/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "X: @polymutex",
+      "url": "https://nitter.net/polymutex/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "X: @BackTheBunny",
+      "url": "https://nitter.net/BackTheBunny/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "X: @artemis__",
+      "url": "https://nitter.net/artemis__/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "X: @SantimentData",
+      "url": "https://nitter.net/SantimentData/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "X: @cryptoquant_com",
+      "url": "https://nitter.net/cryptoquant_com/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "X: @glassnode",
+      "url": "https://nitter.net/glassnode/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "X: @lookonchain",
+      "url": "https://nitter.net/lookonchain/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "X: @ki_young_ju",
+      "url": "https://nitter.net/ki_young_ju/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "TG: @PharosWatchBot",
+      "url": "tg://PharosWatchBot",
+      "type": "tg",
+      "dashboard": "web3"
+    },
+    {
+      "name": "TG: @cryptoquant_alert",
+      "url": "tg://cryptoquant_alert",
+      "type": "tg",
+      "dashboard": "web3"
+    },
+    {
+      "name": "TG: @cryptograntwire",
+      "url": "tg://cryptograntwire",
+      "type": "tg",
+      "dashboard": "web3"
+    },
+    {
+      "name": "TG: @marketfeed",
+      "url": "tg://marketfeed",
+      "type": "tg",
+      "dashboard": "web3"
+    },
+    {
+      "name": "DeFiLlama TVL (API)",
+      "url": "https://api.llama.fi/protocols",
+      "type": "api",
+      "dashboard": "web3"
+    },
+    {
+      "name": "DeFiLlama Chains",
+      "url": "https://api.llama.fi/chains",
+      "type": "api",
+      "dashboard": "web3"
+    },
+    {
+      "name": "IPFS Blog",
+      "url": "https://blog.ipfs.tech/rss.xml",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "Protocol Labs Blog",
+      "url": "https://protocol.ai/blog/rss/",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "Filecoin Blog",
+      "url": "https://filecoin.io/blog/rss/",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "CoinDesk",
+      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "type": "rss",
+      "dashboard": "raw"
+    },
+    {
+      "name": "The Block",
+      "url": "https://www.theblock.co/rss",
+      "type": "rss",
+      "dashboard": "raw"
+    },
+    {
+      "name": "The Defiant",
+      "url": "https://thedefiant.io/feed",
+      "type": "rss",
+      "dashboard": "raw"
+    },
+    {
+      "name": "Decrypt",
+      "url": "https://decrypt.co/feed",
+      "type": "rss",
+      "dashboard": "raw"
+    },
+    {
+      "name": "Bankless",
+      "url": "https://newsletter.banklesshq.com/feed",
+      "type": "rss",
+      "dashboard": "raw"
+    },
+    {
+      "name": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/feed/",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "X: @Dinosn",
+      "url": "https://nitter.net/Dinosn/rss",
+      "type": "rss",
+      "dashboard": "raw"
+    },
+    {
+      "name": "X: @michaeljburry",
+      "url": "https://nitter.net/michaeljburry/rss",
+      "type": "rss",
+      "dashboard": "raw"
+    },
+    {
+      "name": "X: @MarketNews_Feed",
+      "url": "https://nitter.net/MarketNews_Feed/rss",
+      "type": "rss",
+      "dashboard": "macro",
+      "enabled": false,
+      "disabled_reason": "Superseded 2026-08-27 by direct API source \"MarketNewsFeed (squawk)\" - same content without nitter dependency."
+    },
+    {
+      "name": "X: @DefiLlama",
+      "url": "https://nitter.net/DefiLlama/rss",
+      "type": "rss",
+      "dashboard": "raw"
+    },
+    {
+      "name": "X: @Delphi_Digital",
+      "url": "https://nitter.net/Delphi_Digital/rss",
+      "type": "rss",
+      "dashboard": "raw"
+    },
+    {
+      "name": "X: @LeRobotHF",
+      "url": "https://nitter.net/LeRobotHF/rss",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "X: @sama",
+      "url": "https://nitter.net/sama/rss",
+      "type": "rss",
+      "dashboard": "ai"
+    },
+    {
+      "name": "X: @karpathy",
+      "url": "https://nitter.net/karpathy/rss",
+      "type": "rss",
+      "dashboard": "ai"
+    },
+    {
+      "name": "X: @ylecun",
+      "url": "https://nitter.net/ylecun/rss",
+      "type": "rss",
+      "dashboard": "ai"
+    },
+    {
+      "name": "X: @DrJimFan",
+      "url": "https://nitter.net/DrJimFan/rss",
+      "type": "rss",
+      "dashboard": "ai"
+    },
+    {
+      "name": "X: @elder_plinius",
+      "url": "https://nitter.net/elder_plinius/rss",
+      "type": "rss",
+      "dashboard": "ai"
+    },
+    {
+      "name": "X: @teknium1",
+      "url": "https://nitter.net/teknium1/rss",
+      "type": "rss",
+      "dashboard": "ai"
+    },
+    {
+      "name": "X: @EMostaque",
+      "url": "https://nitter.net/EMostaque/rss",
+      "type": "rss",
+      "dashboard": "ai"
+    },
+    {
+      "name": "X: @xai",
+      "url": "https://nitter.net/xai/rss",
+      "type": "rss",
+      "dashboard": "ai"
+    },
+    {
+      "name": "X: @OsaurusAI",
+      "url": "https://nitter.net/OsaurusAI/rss",
+      "type": "rss",
+      "dashboard": "ai"
+    },
+    {
+      "name": "X: @dealignai",
+      "url": "https://nitter.net/dealignai/rss",
+      "type": "rss",
+      "dashboard": "ai"
+    },
+    {
+      "name": "X: @ZackKorman",
+      "url": "https://nitter.net/ZackKorman/rss",
+      "type": "rss",
+      "dashboard": "ai"
+    },
+    {
+      "name": "X: @bgigurtsis",
+      "url": "https://nitter.net/bgigurtsis/rss",
+      "type": "rss",
+      "dashboard": "ai"
+    },
+    {
+      "name": "AnandTech",
+      "url": "https://www.anandtech.com/rss",
+      "type": "rss",
+      "dashboard": "hardware"
+    },
+    {
+      "name": "ServeTheHome",
+      "url": "https://www.servethehome.com/feed/",
+      "type": "rss",
+      "dashboard": "hardware"
+    },
+    {
+      "name": "HPCwire",
+      "url": "https://www.hpcwire.com/feed/",
+      "type": "rss",
+      "dashboard": "hardware"
+    },
+    {
+      "name": "SemiEngineering",
+      "url": "https://semiengineering.com/feed/",
+      "type": "rss",
+      "dashboard": "hardware"
+    },
+    {
+      "name": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/feeds/all",
+      "type": "rss",
+      "dashboard": "hardware"
+    },
+    {
+      "name": "Phoronix",
+      "url": "https://www.phoronix.com/rss.php",
+      "type": "rss",
+      "dashboard": "hardware"
+    },
+    {
+      "name": "Artemis Research",
+      "url": "https://research.artemis.ai/feed",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "X: @nero_eth",
+      "url": "https://nitter.net/nero_eth/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "X: @zachxbt",
+      "url": "https://nitter.net/zachxbt/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "X: @WuBlockchain",
+      "url": "https://nitter.net/WuBlockchain/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "X: @MessariCrypto",
+      "url": "https://nitter.net/MessariCrypto/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "X: @spencernoon",
+      "url": "https://nitter.net/spencernoon/rss",
+      "type": "rss",
+      "dashboard": "web3"
+    },
+    {
+      "name": "Onchain AI Garage",
+      "url": "https://www.onchainaigarage.com/",
+      "type": "rss",
+      "dashboard": "default"
+    },
+    {
+      "name": "MarketNewsFeed Telegram",
+      "url": "https://t.me/s/marketfeed",
+      "type": "rss",
+      "dashboard": "macro",
+      "enabled": false,
+      "disabled_reason": "BACKUP - parked while marketnewsfeed.com API is healthy; unpark if API dies. Needs t.me HTML scraping support added to pipeline.py api/rss branch."
+    },
+    {
+      "name": "MarketNewsFeed [CRYPTO]",
+      "url": "https://marketnewsfeed.com/api/feed?cat=CRYPTO",
+      "type": "api",
+      "dashboard": "web3"
+    },
+    {
+      "name": "MarketNewsFeed [MACRO]",
+      "url": "https://marketnewsfeed.com/api/feed?cat=MACRO",
+      "type": "api",
+      "dashboard": "macro"
+    },
+    {
+      "name": "MarketNewsFeed [ENERGY]",
+      "url": "https://marketnewsfeed.com/api/feed?cat=ENERGY",
+      "type": "api",
+      "dashboard": "macro"
+    },
+    {
+      "name": "MarketNewsFeed [STOCKS]",
+      "url": "https://marketnewsfeed.com/api/feed?cat=STOCKS",
+      "type": "api",
+      "dashboard": "macro"
+    },
+    {
+      "name": "MarketNewsFeed [OTHER]",
+      "url": "https://marketnewsfeed.com/api/feed?cat=OTHER",
+      "type": "api",
+      "dashboard": "macro"
+    }
+  ]
+}
